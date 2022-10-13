@@ -1,5 +1,5 @@
 # TPA 3 - Movie App with TMDb API 
-- Link website: [Movie App](tpa3-movie-app.netlify.app)
+- Link website: [Movie App](https://tpa3-movie-app.netlify.app/)
 - Screenshot:
   - Home page
   ![Screenshot (268)](https://user-images.githubusercontent.com/85722923/195658175-52d74d0d-b6ee-4822-9c7b-c8086110208e.png)
