@@ -1,0 +1,96 @@
+* {
+    font-family: "Bahnschrift", sans-serif;
+}
+
+body {
+    font-size: 10px;
+    background-color: rgb(24, 24, 24);
+}
+
+/* NAVBAR */
+.navbar-brand {
+    color: #a8d31a;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 20px;
+    margin: 3px 35px;
+}
+
+span {
+    color: white;
+    font-size: 18px;
+}
+
+.navbar-brand:hover, span:hover {
+    color: darkgoldenrod;
+    transition: 0.5s;
+}
+
+.btn, .bi {
+    border-color: white;
+}
+
+.btn:hover {
+    background: #a8d31a;
+}
+
+/* RESPONSIVE WEB */
+@media screen and (min-width:993px) {
+    .form-control {
+        width: 345px;
+        margin-right: 2vw;
+
+    }
+}
+
+@media screen and (max-width:993px) {
+    .navbar-nav {
+        text-align: center;
+
+    }
+}
+
+/* CARD MOVIE */
+.col {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0vw 3vw;
+}
+
+.card {
+    width: 30%;
+    height: auto;
+    margin: 3% 1%;
+    border-color: #a8d31a;
+}
+
+.flex-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: black;
+}
+
+.card-text {
+    font-size: 17px;
+    font-weight: bold;
+    color: red;
+    margin-top: 0;
+}
+
+/* FOOTER */
+footer {
+    background-color: rgb(65, 82, 36);
+    margin-top: 3%;
+    padding: 3px;
+}
+
+footer p {
+    color: #a8d31a;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+}
